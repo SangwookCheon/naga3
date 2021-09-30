@@ -1,7 +1,10 @@
 ---
-layout: article
+layout: articles
 title: Kelas 3
-cover: /assets/images/subjects/english.jpg
+articles:
+  data_source: site.kelas-1
+  show_excerpt: true
+  show_readmore: false
+  type: grid
+cover: /assets/images/kelas/3.jpg
 ---
-
-Hi, I am English.

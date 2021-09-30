@@ -6,5 +6,5 @@ articles:
   show_excerpt: true
   show_readmore: false
   type: grid
-cover: /assets/images/subjects/math.jpg
+cover: /assets/images/kelas/1.jpg
 ---

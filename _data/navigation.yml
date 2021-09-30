@@ -1,12 +1,12 @@
 header:
   - title: Video
     url: /video.html
-  - title: Buku
+  - title: Buku Pelajaran
     url: /explore/index.html
   # - title: Kreator
   #   url: /creators.html
-  - title: Arsip
-    url: /archive.html
+  # - title: Arsip
+  #   url: /archive.html
 
 # matematika_y1:
 #   - title: Introduction

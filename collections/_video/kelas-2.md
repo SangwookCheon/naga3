@@ -1,7 +1,10 @@
 ---
-layout: article
+layout: articles
 title: Kelas 2
-cover: /assets/images/subjects/science.jpg
+articles:
+  data_source: site.kelas-1
+  show_excerpt: true
+  show_readmore: false
+  type: grid
+cover: /assets/images/kelas/2.jpg
 ---
-
-Hi, has this changed?

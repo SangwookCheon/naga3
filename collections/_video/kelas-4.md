@@ -1,7 +1,10 @@
 ---
-layout: article
+layout: articles
 title: Kelas 4
-cover: /assets/images/subjects/digital.jpg
+articles:
+  data_source: site.kelas-1
+  show_excerpt: true
+  show_readmore: false
+  type: grid
+cover: /assets/images/kelas/4.jpg
 ---
-
-Hi, I am Digital Citizenship.

@@ -7,6 +7,10 @@ cover: /assets/images/subjects/math.jpg
 
 ## Matematika
 
+[Sample pdf](/assets/Buku Siswa - SD Kelas II Tema 2 Bermain di Lingkunganku copy.pdf)
+
+[Sample pdf](/assets/Buku Siswa - SD Kelas II Tema 2 Bermain di Lingkunganku copy.pdf)
+
 <div class="mt-2"></div>
 
 {% assign temp_posts = site.posts | where_exp: "post", "post.group == 'kelas-1-buku'" %}

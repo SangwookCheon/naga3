@@ -1,0 +1,171 @@
+// Custom CSS defined specifically for this website!
+
+// for making stripes on any page.
+.stripe-1 {
+  color: #6a8caf;
+  background: $grey;
+  background-size: 100% 20px;
+  margin: 0;
+  height: 95px;
+  // box-shadow: 0px 3px 5px 0px #c4dfff;
+
+}
+
+.stripe-2 {
+  color: white;
+  background: $header-text-color;
+  background-size: 100% 20px;
+  margin: 0;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.center-p {
+  font-size: 35px;
+  text-align: center;
+  padding: 1.1rem;
+  margin: 0 0 0.5rem 0;
+}
+
+
+// Full Width Content!
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 30px 15px 0px 30px;
+}
+
+.footer_left {
+  width: 40%;
+}
+
+.footer_center-1 {
+  width: 20%;
+}
+
+.footer_center-2 {
+  width: 20%;
+}
+
+.footer_right {
+  width: 20%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.unselectable {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+}
+
+// IMPORTANT
+// Styles for the Landing Page.
+
+.landing_left_1 {
+  width: 55%;
+    img {
+      max-width:100%;
+      height:auto;
+      filter: none;
+      box-shadow: none;
+  }
+}
+
+.landing_right_1 {
+  width: 45%;
+}
+
+//reverse
+
+.landing_left_2 {
+  width: 45%;
+}
+
+.landing_right_2 {
+  width: 55%;
+}
+
+// Three panes
+
+.landing_left {
+  width: 33%;
+}
+
+.landing_center {
+  width: 34%;
+}
+
+.landing_right {
+  width: 33%;
+}
+
+// For Responsive
+
+@media screen and (max-width: 800px) {
+  .footer_left {
+    width: 100%;
+  }
+
+  .footer_center-1 {
+    width: 50%;
+  }
+
+  .footer_center-2 {
+    width: 50%;
+  }
+
+  .footer_right {
+    width: 50%;
+  }
+
+  .landing_left_1 {
+    width: 100%
+  }
+
+  .landing_right_1 {
+    width: 100%
+  }
+
+  .landing_left_2 {
+    width: 100%
+  }
+
+  .landing_right_2 {
+    width: 100%
+  }
+
+  .landing_left {
+    width: 100%;
+  }
+
+  .landing_center {
+    width: 100%;
+  }
+
+  .landing_right {
+    width: 100%;
+  }
+
+}
+
+// Div Background
+.div-background {
+  background-color: blue;
+}

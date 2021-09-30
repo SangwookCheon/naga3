@@ -219,10 +219,10 @@ collections_dir: collections
 collections:
   video:
     output: true
-    permalink: /video/:name
+    # permalink: /video/:name
   kelas-1:
     output: true
-    permalink: /video/kelas-1/:name
+    # permalink: /video/kelas-1/:name
   buku:
     output: true
   Groups:
